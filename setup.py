@@ -6,7 +6,7 @@ setup(
 	maintainer='Corey Lynch',
     name='pyfm',
     packages=find_packages(),
-    url='https://github.com/coreylynch/pyFM',
+    url='https://github.com/Sanju910/pyFM',
     cmdclass = {'build_ext': build_ext},
     ext_modules = [Extension("pyfm_fast", ["pyfm_fast.pyx"],
     						 libraries=["msvcrt"],
